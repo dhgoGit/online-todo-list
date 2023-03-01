@@ -1,4 +1,4 @@
-package com.app.onlinetodolist
+package com.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
