@@ -1,6 +1,7 @@
 package com.app.task
 
 import com.app.utli.dateFactory
+import com.app.utli.log
 import io.kotest.core.spec.style.FeatureSpec
 
 class PeriodTaskTest : FeatureSpec(){
@@ -13,6 +14,8 @@ class PeriodTaskTest : FeatureSpec(){
                     startDate = dateFactory.gen(2023,2,12),
                     endDate = dateFactory.gen(2023,3,1)
                 )
+
+                log.info(task.print())
             }
         }
     }
